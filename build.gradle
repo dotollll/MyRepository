@@ -11,6 +11,11 @@ java {
 	sourceCompatibility = '11'
 }
 
+jar {
+	enabled = false // plain 붙은 jar 파일 생성 기능 비활성화
+}
+
+
 repositories {
 	mavenCentral()
 }
